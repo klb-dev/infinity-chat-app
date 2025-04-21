@@ -1,12 +1,49 @@
-# React + Vite
+# Infinity Chat 💬
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A real-time, responsive direct messaging chat app built with React, Firebase, and styled-components. Supports email login, guest mode, emoji reactions, typing indicators, and dark/light mode — all deployed via Firebase Hosting.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
+[https://infinity-chat-ed2a5.web.app](https://infinity-chat-ed2a5.web.app)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Features
+
+- 🔥 Firebase Auth (email/password + anonymous login)
+- 💬 Direct messaging between users
+- 🧠 Reactions with emoji toggle + tooltips
+- ✍️ Typing indicators (Realtime DB)
+- 🌙 Dark/light mode toggle
+- 🪄 Last message preview per chat
+- 📱 Fully responsive for mobile and desktop
+- 🔐 Firestore security rules for data safety
+- ⚡ Fast deploy via Firebase Hosting
+
+---
+
+## 📦 Built With
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Firebase](https://firebase.google.com/) — Auth, Firestore, Realtime DB, Hosting
+- [styled-components](https://styled-components.com/)
+- [React Icons / Emojis](https://react-icons.github.io/)
+
+---
+
+## 🚀 Deployed With
+
+[![🔥 Firebase Hosting](https://firebase.google.com/products/hosting)
+
+Deployed to production using **Firebase Hosting**, a fast and secure static web hosting service integrated with your Firebase project.
+
+🔗 Live Site: [https://infinity-chat-ed2a5.web.app](https://infinity-chat-ed2a5.web.app)
+
+### 🌐 To Deploy:
+
+```bash
+npm run build
+firebase deploy
+
